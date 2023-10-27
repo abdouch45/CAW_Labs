@@ -6,7 +6,6 @@ let gameGoing=1;
 const boundaries = document.getElementsByClassName("boundary");
 const rect = start.getBoundingClientRect();
 const x= rect.left;
-const bd=document.getElementsByTagName("body");
 
 function checkCheating(event) {
   let mouse = event.clientX;
