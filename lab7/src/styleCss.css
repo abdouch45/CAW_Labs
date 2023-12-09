@@ -1,0 +1,150 @@
+body {
+  background-color: #d3a1a1; 
+  font-family: 'Arial', sans-serif;
+}
+
+
+
+.formNewtask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.formNewtask input,
+.formNewtask textarea {
+  width: 20%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+}
+
+.formNewtask button {
+  background-color: #2ecc71; 
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.formNewtask button:hover {
+  background-color: #27ae60; 
+}
+
+.task {
+  background-color: #eff6c0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.task .title {
+  font-size: 30px;
+  color: #003366; 
+}
+
+.task .button {
+  position: absolute;
+  margin-left: 15%;
+}
+
+textarea {
+  font-size: 20px;
+  width: 250;
+  margin-bottom: 20px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+}
+
+.task button {
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.task button:hover {
+  background-color: #27ae60;
+}
+
+.done {
+  margin-left: 10px;
+}
+
+.li {
+  font-size: 17px;
+  color: #000;
+  list-style-type: none;
+}
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 25%;
+}
+
+.modal label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.modal input {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+}
+
+.modal button {
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.modal button:hover {
+  background-color: #27ae60;
+}
+
+.modal button:last-child {
+  margin-right: 0;
+}
